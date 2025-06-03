@@ -1672,6 +1672,18 @@ body {
     top: 45%;
   }
 }
+
+      
+@media (max-width: 768px) {
+  @keyframes float {
+    0%, 100% {
+      top: 50%;
+    }
+    50% {
+      top: 49%; /* Less movement on mobile */
+    }
+  }
+}
 .planet {
   background-color: #202020;
   background-repeat: no-repeat;
